@@ -1,77 +1,71 @@
 header {
   background-color: #000;
   padding-top: 10px;
-  font-family: 'Montserrat', sans-serif;
 
-  .wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
+  .nav-bar-header-superiore {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
 
-    .nav-bar-header-superiore {
-      display: flex;
-      justify-content: flex-end;
-      margin-bottom: 10px;
+    li {
+      margin: 0 15px;
+      list-style: none;
 
-      li {
-        margin: 0 15px;
-        list-style: none;
+      a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #739479;
+        font-size: 12px;
 
-        a {
-          display: flex;
-          align-items: center;
-          text-decoration: none;
-          color: #739479;
-          font-size: 12px;
-
-            &:hover span {
-              color: #fff;
-              text-decoration: underline;
-            }
-
-          i {
-            color: #029CFF;
-            font-size: 16px;
-            padding-right: 5px;
+          &:hover span {
+            color: #fff;
+            text-decoration: underline;
           }
+
+        i {
+          color: #029CFF;
+          font-size: 16px;
+          padding-right: 5px;
         }
       }
     }
+  }
 
-    .nav-bar-header-inferiore {
-      display: flex;
-      justify-content: flex-start;
+  .nav-bar-header-inferiore {
+    display: flex;
+    justify-content: flex-start;
 
-      & img{
-        max-width: 120px;
-        padding: 10px 15px;
+    & img{
+      max-width: 120px;
+      padding: 10px 15px;
+    }
+
+    li {
+      list-style: none;
+
+      &:hover .elm-nav-hdr-inf {
+        color: #000;
+        background-color: #fff;
       }
 
-      li {
-        list-style: none;
+      &:hover {
+        cursor: pointer;
+      }
 
-        &:hover .elm-nav-hdr-inf {
-          color: #000;
-          background-color: #fff;
-        }
+        .elm-nav-hdr-inf {
+        display: flex;
+        align-items: center;
+        padding: 15px 20px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
 
-        &:hover {
-          cursor: pointer;
-        }
-
-          .elm-nav-hdr-inf {
-          display: flex;
-          align-items: center;
-          padding: 15px 20px;
-          text-decoration: none;
-          color: #fff;
+        i {
+          color: #739479;
           font-size: 14px;
-          font-weight: 500;
-
-          i {
-            color: #739479;
-            font-size: 14px;
-            padding-left: 5px;
-          }
+          padding-left: 5px;
         }
       }
     }

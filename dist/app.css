@@ -2,31 +2,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header {
   background-color: #000;
   padding-top: 10px;
-  font-family: "Montserrat", sans-serif;
 }
 
-header .wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-header .wrapper .nav-bar-header-superiore {
+header .nav-bar-header-superiore {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 10px;
 }
 
-header .wrapper .nav-bar-header-superiore li {
+header .nav-bar-header-superiore li {
   margin: 0 15px;
   list-style: none;
 }
 
-header .wrapper .nav-bar-header-superiore li a {
+header .nav-bar-header-superiore li a {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -34,41 +34,41 @@ header .wrapper .nav-bar-header-superiore li a {
   font-size: 12px;
 }
 
-header .wrapper .nav-bar-header-superiore li a:hover span {
+header .nav-bar-header-superiore li a:hover span {
   color: #fff;
   text-decoration: underline;
 }
 
-header .wrapper .nav-bar-header-superiore li a i {
+header .nav-bar-header-superiore li a i {
   color: #029CFF;
   font-size: 16px;
   padding-right: 5px;
 }
 
-header .wrapper .nav-bar-header-inferiore {
+header .nav-bar-header-inferiore {
   display: flex;
   justify-content: flex-start;
 }
 
-header .wrapper .nav-bar-header-inferiore img {
+header .nav-bar-header-inferiore img {
   max-width: 120px;
   padding: 10px 15px;
 }
 
-header .wrapper .nav-bar-header-inferiore li {
+header .nav-bar-header-inferiore li {
   list-style: none;
 }
 
-header .wrapper .nav-bar-header-inferiore li:hover .elm-nav-hdr-inf {
+header .nav-bar-header-inferiore li:hover .elm-nav-hdr-inf {
   color: #000;
   background-color: #fff;
 }
 
-header .wrapper .nav-bar-header-inferiore li:hover {
+header .nav-bar-header-inferiore li:hover {
   cursor: pointer;
 }
 
-header .wrapper .nav-bar-header-inferiore li .elm-nav-hdr-inf {
+header .nav-bar-header-inferiore li .elm-nav-hdr-inf {
   display: flex;
   align-items: center;
   padding: 15px 20px;
@@ -78,21 +78,95 @@ header .wrapper .nav-bar-header-inferiore li .elm-nav-hdr-inf {
   font-weight: 500;
 }
 
-header .wrapper .nav-bar-header-inferiore li .elm-nav-hdr-inf i {
+header .nav-bar-header-inferiore li .elm-nav-hdr-inf i {
   color: #739479;
   font-size: 14px;
   padding-left: 5px;
 }
 
 .jumbo {
-  background-color: red;
-  /* Used if the image is unavailable */
-  height: 500px;
-  /* You must set a specified height */
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
+  background-image: url(https://www.painterartist.com//static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.jumbo .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.jumbo .container .div-hero-left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: calc(100% / 5);
+}
+
+.jumbo .container .div-hero-left p {
+  margin-bottom: 30px;
+  text-shadow: 1px 1px black;
+  font-size: 10px;
+}
+
+.jumbo .container .div-hero-middle {
+  margin-top: 50px;
+  width: calc((100% / 5) * 3);
+  display: flex;
+  justify-content: center;
+}
+
+.jumbo .container .div-hero-middle h1 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.jumbo .container .div-hero-middle h2 {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.jumbo .container .div-hero-middle li {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.jumbo .container .div-hero-middle li i {
+  margin-right: 10px;
+  color: #739479;
+}
+
+.jumbo .container .div-hero-middle a {
+  margin-top: 35px;
+  padding: 5px;
+  background-color: #5B5B59;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 220px;
+}
+
+.jumbo .container .div-hero-middle a .inside-bnt {
+  margin: 5px 10px 5px 5px;
+}
+
+.jumbo .container .div-hero-middle a i {
+  border-left: 1px solid #fff;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+.jumbo .container .div-hero-right {
+  width: calc((100% / 5) * 2);
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 

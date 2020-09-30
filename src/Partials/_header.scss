@@ -1,0 +1,33 @@
+header {
+  background-color: #000;
+  padding: 10px 30px;
+  font-family: 'Montserrat', sans-serif;
+
+  .nav-bar-header-superiore {
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+      margin: 0 15px;
+
+      a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #739479;
+        font-size: 12px;
+
+          &:hover span {
+            color: #fff;
+            text-decoration: underline;
+          }
+
+        i {
+          color: #029CFF;
+          font-size: 16px;
+          padding-right: 5px;
+        }
+      }
+    }
+  }
+}

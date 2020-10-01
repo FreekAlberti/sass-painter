@@ -44,7 +44,7 @@ header {
 
       &:hover .elm-nav-hdr-inf {
         color: #000;
-        background-color: #fff;
+        background-color: $secondcolor;
       }
 
       &:hover {
@@ -56,7 +56,7 @@ header {
         align-items: center;
         padding: 15px 20px;
         text-decoration: none;
-        color: #fff;
+        color: $secondcolor;
         font-size: 14px;
         font-weight: 500;
 

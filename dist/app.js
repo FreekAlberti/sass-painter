@@ -109,13 +109,14 @@
 /***/ }),
 
 /***/ 0:
-/*!*****************************************!*\
-  !*** multi ./src/app.js ./src/app.scss ***!
-  \*****************************************/
+/*!*************************************************************************!*\
+  !*** multi ./src/app.js ./resources/assets/app/app.scss ./src/app.scss ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /home/sido/Documenti/Boolean/esercizi_casa/sass-painter/src/app.js */"./src/app.js");
+!(function webpackMissingModule() { var e = new Error("Cannot find module '/home/sido/Documenti/Boolean/esercizi_casa/sass-painter/resources/assets/app/app.scss'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 module.exports = __webpack_require__(/*! /home/sido/Documenti/Boolean/esercizi_casa/sass-painter/src/app.scss */"./src/app.scss");
 
 

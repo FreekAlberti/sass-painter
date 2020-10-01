@@ -14,18 +14,15 @@ header {
   background-color: #000;
   padding-top: 10px;
 }
-
 header .nav-bar-header-superiore {
   display: flex;
   list-style: none;
   justify-content: flex-end;
   margin-bottom: 10px;
 }
-
 header .nav-bar-header-superiore li {
   margin: 0 15px;
 }
-
 header .nav-bar-header-superiore li a {
   display: flex;
   align-items: center;
@@ -33,38 +30,31 @@ header .nav-bar-header-superiore li a {
   color: #739479;
   font-size: 12px;
 }
-
 header .nav-bar-header-superiore li a:hover span {
   color: #fff;
   text-decoration: underline;
 }
-
 header .nav-bar-header-superiore li a i {
   color: #029CFF;
   font-size: 16px;
   padding-right: 5px;
 }
-
 header .nav-bar-header-inferiore {
   display: flex;
   list-style: none;
   justify-content: flex-start;
 }
-
 header .nav-bar-header-inferiore img {
   max-width: 120px;
   padding: 10px 15px;
 }
-
 header .nav-bar-header-inferiore li:hover .elm-nav-hdr-inf {
   color: #000;
   background-color: #fff;
 }
-
 header .nav-bar-header-inferiore li:hover {
   cursor: pointer;
 }
-
 header .nav-bar-header-inferiore li .elm-nav-hdr-inf {
   display: flex;
   align-items: center;
@@ -74,7 +64,6 @@ header .nav-bar-header-inferiore li .elm-nav-hdr-inf {
   font-size: 14px;
   font-weight: 500;
 }
-
 header .nav-bar-header-inferiore li .elm-nav-hdr-inf i {
   color: #739479;
   font-size: 14px;
@@ -82,19 +71,17 @@ header .nav-bar-header-inferiore li .elm-nav-hdr-inf i {
 }
 
 .jumbo {
-  background-image: url(https://www.painterartist.com//static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
+  background-image: url(../img/hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .jumbo .container {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
   color: #fff;
 }
-
 .jumbo .container .div-hero-left {
   display: flex;
   flex-direction: column;
@@ -102,42 +89,35 @@ header .nav-bar-header-inferiore li .elm-nav-hdr-inf i {
   align-items: center;
   width: calc(100% / 5);
 }
-
 .jumbo .container .div-hero-left p {
   margin-bottom: 30px;
   text-shadow: 1px 1px black;
   font-size: 10px;
 }
-
 .jumbo .container .div-hero-middle {
   margin-top: 50px;
   width: calc((100% / 5) * 3);
   display: flex;
   justify-content: center;
 }
-
 .jumbo .container .div-hero-middle h1 {
   font-weight: 400;
   font-size: 30px;
   margin-bottom: 25px;
 }
-
 .jumbo .container .div-hero-middle h2 {
   font-weight: 400;
   font-size: 20px;
   margin-bottom: 25px;
 }
-
 .jumbo .container .div-hero-middle li {
   list-style: none;
   margin: 20px 0;
 }
-
 .jumbo .container .div-hero-middle li i {
   margin-right: 10px;
   color: #739479;
 }
-
 .jumbo .container .div-hero-middle a {
   margin: 35px 0;
   padding: 5px;
@@ -149,17 +129,14 @@ header .nav-bar-header-inferiore li .elm-nav-hdr-inf i {
   text-decoration: none;
   width: 220px;
 }
-
 .jumbo .container .div-hero-middle a .inside-bnt {
   margin: 5px 10px 5px 5px;
 }
-
 .jumbo .container .div-hero-middle a i {
   border-left: 1px solid #fff;
   padding-left: 10px;
   font-size: 30px;
 }
-
 .jumbo .container .div-hero-right {
   width: calc((100% / 5) * 2);
   margin-top: 30px;
@@ -169,43 +146,35 @@ header .nav-bar-header-inferiore li .elm-nav-hdr-inf i {
   flex-direction: column;
   justify-content: flex-start;
 }
-
 .jumbo .container .div-hero-right .div-hero-right-first-level {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .jumbo .container .div-hero-right .div-hero-right-first-level h3 {
   font-size: 25px;
 }
-
 .jumbo .container .div-hero-right .flex-button {
   margin: 20px 0 50px 0;
 }
-
 .jumbo .container .div-hero-right .flex-button .btn-buy {
   background-color: #009cff;
   color: #fff;
   text-decoration: none;
   padding: 10px 40px;
 }
-
 .jumbo .container .div-hero-right .flex-button .btn-buy:hover {
   background-color: #28acff;
 }
-
 .jumbo .container .div-hero-right .offer {
   background-color: #fff;
   color: #000;
   margin-bottom: 100px;
   padding: 10px;
 }
-
 .jumbo .container .div-hero-right .offer p {
   margin: 10px 0;
 }
-
 .jumbo .container .div-hero-right .offer a {
   text-decoration: none;
   color: #009cff;
@@ -215,13 +184,11 @@ header .nav-bar-header-inferiore li .elm-nav-hdr-inf i {
   background-color: #E6E6E6;
   border-bottom: 2px solid #000;
 }
-
 .section-second-nav ul {
   display: flex;
   list-style: none;
   justify-content: flex-start;
 }
-
 .section-second-nav ul li a {
   display: flex;
   align-items: center;
@@ -231,10 +198,8 @@ header .nav-bar-header-inferiore li .elm-nav-hdr-inf i {
   font-size: 18px;
   font-weight: 400;
 }
-
 .section-second-nav ul li a:hover {
   border-bottom: 2px solid #000;
   color: #000;
   background-color: #fff;
 }
-

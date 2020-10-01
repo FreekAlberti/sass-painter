@@ -6,7 +6,6 @@
 
   .container {
     display: flex;
-    justify-content: space-around;
     align-items: flex-end;
     color: #fff;
 
@@ -101,7 +100,7 @@
         margin: 20px 0 50px 0;
 
         .btn-buy {
-          background-color: #009cff;
+          background-color: $maincolor;
           color: #fff;
           text-decoration: none;
           padding: 10px 40px;
@@ -124,7 +123,7 @@
 
         a {
           text-decoration: none;
-          color: #009cff;
+          color: $maincolor;
         }
       }
     }

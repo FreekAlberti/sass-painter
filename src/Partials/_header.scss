@@ -3,13 +3,12 @@ header {
   padding-top: 10px;
 
   .nav-bar-header-superiore {
-    display: flex;
+    @include caratteristiche-ul;
     justify-content: flex-end;
     margin-bottom: 10px;
 
     li {
       margin: 0 15px;
-      list-style: none;
 
       a {
         display: flex;
@@ -33,7 +32,7 @@ header {
   }
 
   .nav-bar-header-inferiore {
-    display: flex;
+    @include caratteristiche-ul;
     justify-content: flex-start;
 
     & img{
@@ -42,7 +41,6 @@ header {
     }
 
     li {
-      list-style: none;
 
       &:hover .elm-nav-hdr-inf {
         color: #000;

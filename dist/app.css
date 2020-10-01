@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 .wrapper {
@@ -17,13 +17,13 @@ header {
 
 header .nav-bar-header-superiore {
   display: flex;
+  list-style: none;
   justify-content: flex-end;
   margin-bottom: 10px;
 }
 
 header .nav-bar-header-superiore li {
   margin: 0 15px;
-  list-style: none;
 }
 
 header .nav-bar-header-superiore li a {
@@ -47,16 +47,13 @@ header .nav-bar-header-superiore li a i {
 
 header .nav-bar-header-inferiore {
   display: flex;
+  list-style: none;
   justify-content: flex-start;
 }
 
 header .nav-bar-header-inferiore img {
   max-width: 120px;
   padding: 10px 15px;
-}
-
-header .nav-bar-header-inferiore li {
-  list-style: none;
 }
 
 header .nav-bar-header-inferiore li:hover .elm-nav-hdr-inf {
@@ -88,18 +85,17 @@ header .nav-bar-header-inferiore li .elm-nav-hdr-inf i {
   background-image: url(https://www.painterartist.com//static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  background-position: center;
 }
 
 .jumbo .container {
-  height: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: flex-end;
   color: #fff;
 }
 
 .jumbo .container .div-hero-left {
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -143,7 +139,7 @@ header .nav-bar-header-inferiore li .elm-nav-hdr-inf i {
 }
 
 .jumbo .container .div-hero-middle a {
-  margin-top: 35px;
+  margin: 35px 0;
   padding: 5px;
   background-color: #5B5B59;
   color: #fff;
@@ -168,5 +164,50 @@ header .nav-bar-header-inferiore li .elm-nav-hdr-inf i {
   width: calc((100% / 5) * 2);
   margin-top: 30px;
   background-color: rgba(0, 0, 0, 0.9);
+  padding: 30px 10px 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.jumbo .container .div-hero-right .div-hero-right-first-level {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jumbo .container .div-hero-right .div-hero-right-first-level h3 {
+  font-size: 25px;
+}
+
+.jumbo .container .div-hero-right .flex-button {
+  margin: 20px 0 50px 0;
+}
+
+.jumbo .container .div-hero-right .flex-button .btn-buy {
+  background-color: #009cff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 40px;
+}
+
+.jumbo .container .div-hero-right .flex-button .btn-buy:hover {
+  background-color: #28acff;
+}
+
+.jumbo .container .div-hero-right .offer {
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 100px;
+  padding: 10px;
+}
+
+.jumbo .container .div-hero-right .offer p {
+  margin: 10px 0;
+}
+
+.jumbo .container .div-hero-right .offer a {
+  text-decoration: none;
+  color: #009cff;
 }
 

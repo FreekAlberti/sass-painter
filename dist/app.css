@@ -205,8 +205,8 @@ header .nav-bar-header-inferiore li .elm-nav-hdr-inf i {
 
 .first-section {
   background-image: url(../img/sfondo1.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: 50%;
 }
 .first-section .wrapper .container {
@@ -289,4 +289,14 @@ header .nav-bar-header-inferiore li .elm-nav-hdr-inf i {
   border-radius: 100%;
   border: 2px solid #fff;
   cursor: pointer;
+}
+
+.first-parallax {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-attachment: fixed;
+  background-image: url(../img/parallax1.jpg);
 }

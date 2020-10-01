@@ -2,3 +2,8 @@
   display: flex;
   list-style: none;
 }
+
+@mixin img-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+}

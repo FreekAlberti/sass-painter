@@ -30,8 +30,7 @@
 
 .first-section {
   background-image: url(../img/sfondo1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  @include img-background;
   background-position: 50%;
 
   .wrapper {
@@ -130,4 +129,13 @@
       }
     }
   }
+}
+
+.first-parallax {
+  background-position: center;
+  @include img-background;
+  height: 600px;
+  width: 100%;
+  background-attachment: fixed;
+  background-image: url(../img/parallax1.jpg);
 }

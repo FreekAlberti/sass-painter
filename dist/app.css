@@ -211,3 +211,30 @@ header .nav-bar-header-inferiore li .elm-nav-hdr-inf i {
   color: #009cff;
 }
 
+.section-second-nav {
+  background-color: #E6E6E6;
+  border-bottom: 2px solid #000;
+}
+
+.section-second-nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+.section-second-nav ul li a {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #333213;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-second-nav ul li a:hover {
+  border-bottom: 2px solid #000;
+  color: #000;
+  background-color: #fff;
+}
+

@@ -1,0 +1,29 @@
+.section-second-nav {
+  background-color: #E6E6E6;
+  border-bottom: 2px solid #000;
+
+  ul {
+    @include caratteristiche-ul;
+    justify-content: flex-start;
+
+    li {
+
+      a {
+
+        display: flex;
+        align-items: center;
+        padding: 15px 20px;
+        text-decoration: none;
+        color: #333213;
+        font-size: 18px;
+        font-weight: 400;
+
+        &:hover {
+          border-bottom: 2px solid #000;
+          color: #000;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+}
